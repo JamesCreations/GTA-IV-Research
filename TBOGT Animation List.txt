@@ -1,0 +1,3026 @@
+│
+├───climb_std
+│       climb_idle
+│       climb_jump
+│       fall_back
+│       fall_fall
+│       fall_front
+│       fall_glide
+│       fall_land
+│       hang_drop_rifle
+│       hang_drop_unarmed
+│       hang_to_waist
+│       ladder_climb
+│       ladder_climb_down
+│       ladder_climb_down_run
+│       ladder_climb_run
+│       ladder_getoff_top
+│       ladder_geton
+│       ladder_geton_top
+│       ladder_geton_topb
+│       ladder_idle
+│       ladder_idle_ambient
+│       ladder_jumpoff
+│       ladder_slide
+│       landing_head_height
+│       landing_stretch_height
+│       shimmy_l
+│       shimmy_r
+│       vault_end
+│       vault_end_r
+│       vault_start
+│       vault_start_r
+│       vault_to_stand_rifle
+│       vault_to_stand_rifle_r
+│       vault_to_stand_unarmed
+│       vault_to_stand_unarmed_r
+│       waist_to_stand_rifle
+│       waist_to_stand_unarmed
+│       waist_to_vault
+│       waist_to_vault_shallow
+│
+├───cover_dive
+│       high_l_pistol
+│       high_l_pistol_short
+│       high_l_rifle
+│       high_l_rifle_short
+│       high_r_pistol
+│       high_r_pistol_short
+│       high_r_rifle
+│       high_r_rifle_short
+│       low_l_pistol
+│       low_l_pistol_short
+│       low_l_rifle
+│       low_l_rifle_short
+│       low_r_pistol
+│       low_r_pistol_short
+│       low_r_rifle
+│       low_r_rifle_short
+│
+├───cover_l_high_centre
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       unarmed_flip_180
+│       unarmed_idle
+│
+├───cover_l_high_corner
+│       ak47_blindfire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───cover_l_low_centre
+│       ak47_blindfire
+│       lowerhalf_fire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───cover_l_low_corner
+│       ak47_blindfire
+│       lowerhalf_fire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───cover_r_high_centre
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       unarmed_flip_180
+│       unarmed_idle
+│
+├───cover_r_high_corner
+│       ak47_blindfire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───cover_r_low_centre
+│       ak47_blindfire
+│       lowerhalf_fire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───cover_r_low_corner
+│       ak47_blindfire
+│       lowerhalf_fire
+│       pistol_blindfire
+│       pistol_cower
+│       pistol_flip_180
+│       pistol_idle
+│       pistol_normal_fire_intro
+│       pistol_normal_fire_outro
+│       pistol_peek
+│       rifle_blindfire
+│       rifle_cower
+│       rifle_flip_180
+│       rifle_idle
+│       rifle_normal_fire_intro
+│       rifle_normal_fire_outro
+│       rifle_peek
+│       rocket_blindfire
+│       shotgun_blindfire
+│       throw_molotov
+│       unarmed_flip_180
+│       unarmed_idle
+│       unarmed_peek
+│       uzi_blindfire
+│
+├───facials@f_lo
+│       angry_a
+│       angry_b
+│       blow
+│       chew
+│       dance_hold_a
+│       dance_hold_b
+│       dance_idle
+│       dance_paired_idle
+│       dead_a
+│       dead_b
+│       gest_angry_intro
+│       gest_angry_loop
+│       gest_angry_outro
+│       gest_normal_loop
+│       gest_surprised_intro
+│       gest_surprised_loop
+│       gest_surprised_outro
+│       gest_think_intro
+│       gest_think_loop
+│       gest_think_outro
+│       gun_aim
+│       keystart
+│       lj_create_spliff
+│       lj_smoke_spliff
+│       lookaround
+│       look_down
+│       look_left
+│       look_right
+│       look_up
+│       mood_angry
+│       mood_injured
+│       mood_normal
+│       mood_scared
+│       music_listen
+│       pain_a
+│       pain_b
+│       pain_c
+│       shocked
+│       skinning
+│       yawn
+│
+├───facials@m_hi
+│       aim_cue
+│       angry_a
+│       angry_b
+│       angry_c
+│       blow
+│       chew
+│       dance_hold_a
+│       dance_hold_b
+│       dance_hold_c
+│       dance_idle
+│       dance_partial_alt_b
+│       dance_partial_b
+│       dance_trans
+│       dead_a
+│       dead_b
+│       die_a
+│       gest_angry_intro
+│       gest_angry_loop
+│       gest_angry_outro
+│       gest_normal_loop
+│       gest_surprised_intro
+│       gest_surprised_loop
+│       gest_surprised_outro
+│       gest_think_intro
+│       gest_think_loop
+│       gest_think_outro
+│       gun_aim
+│       heavybreath
+│       keystart
+│       lookaround
+│       look_down
+│       look_left
+│       look_right
+│       pain_a
+│       pain_b
+│       pain_c
+│       plyr_mood_angry
+│       plyr_mood_happy
+│       plyr_mood_normal
+│       police_chase
+│       shocked
+│       whatever
+│
+├───facials@m_lo
+│       angry_a
+│       angry_b
+│       blow
+│       chew
+│       dead_a
+│       dead_b
+│       gest_angry_intro
+│       gest_angry_loop
+│       gest_angry_outro
+│       gest_normal_loop
+│       gest_surprised_intro
+│       gest_surprised_loop
+│       gest_surprised_outro
+│       gest_think_intro
+│       gest_think_loop
+│       gest_think_outro
+│       gun_aim
+│       keystart
+│       lj_create_spliff
+│       lj_smoke_spliff
+│       lookaround
+│       look_down
+│       look_left
+│       look_right
+│       look_up
+│       mood_angry
+│       mood_injured
+│       mood_normal
+│       mood_scared
+│       music_listen
+│       pain_a
+│       pain_b
+│       pain_c
+│       shocked
+│       skinning
+│       yawn
+│
+├───gestures@bike
+│       and_i_said
+│       and_i_was_like
+│       blah_blah
+│       damn
+│       get_to
+│       hey
+│       punch_air
+│       thumbsup
+│       yeah_right
+│       yeah_whatever
+│
+├───gestures@niko
+│       absolutely
+│       agree
+│       amazing
+│       anger
+│       are you in
+│       bring it on
+│       bring it to me
+│       but why
+│       come here
+│       come on
+│       come_on
+│       come_on_b
+│       damn
+│       despair
+│       disbelief
+│       do it
+│       dont hit me
+│       dont know
+│       easy now
+│       enough
+│       exactly
+│       forget it
+│       give me a break
+│       go away
+│       god damn
+│       good
+│       hello
+│       hey
+│       how could you
+│       how much
+│       how
+│       i cant say
+│       i coudnt
+│       i dont have
+│       i dont think so
+│       i get it
+│       i give up
+│       i said no
+│       i will
+│       if you say so
+│       im begging you
+│       im not sure
+│       im talking to you
+│       indicate back
+│       indicate left
+│       indicate listerner
+│       indicate r
+│       indicate_listener
+│       is this it
+│       its done
+│       its mine
+│       its ok
+│       ive forgot
+│       i_cant_say
+│       kiss my ass
+│       later
+│       leave it to me
+│       let me think
+│       like this
+│       me
+│       naturaly
+│       negative
+│       no really
+│       nod no
+│       nod yes
+│       not me
+│       not sure
+│       of coarse
+│       oh shit
+│       ok ok
+│       ok
+│       over there
+│       piss off
+│       please
+│       positive
+│       raise hands
+│       say again
+│       shit
+│       shock
+│       shut up
+│       stop
+│       sure
+│       tell me about it
+│       this and that
+│       this big
+│       threaten
+│       time
+│       to hell with it
+│       tosser
+│       touch face
+│       u cant do that
+│       u talking to me
+│       u think im stupid
+│       u understand
+│       u want some of this
+│       unbelievable
+│       u_thin_i'm_stupid
+│       we can do it
+│       well alright
+│       well
+│       what the fuck
+│       what
+│       whatever
+│       wot_the_fuck
+│       yeah i got it
+│       yes
+│       you will love this
+│       your right
+│
+├───get_up
+│       get_up_fast
+│       get_up_injured
+│       get_up_normal
+│       get_up_slow
+│
+├───get_up_back
+│       get_up_fast
+│       get_up_normal
+│       get_up_slow
+│
+├───gun@44a
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       idle2_wall_block
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@aa12
+│       aim_2_holster
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@ak47
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@baretta
+│       aim_2_holster
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       fire_down
+│       fire_up
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@cz75
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@deagle
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       idle2_wall_block
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@dsr1
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_alt
+│       fire_crouch
+│       fire_crouch_alt
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@gold_uzi
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@grnde_launch
+│       aim_2_holster
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@handgun
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       idle2_wall_block
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@m249
+│       aim_2_holster
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       fire_down
+│       fire_up
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@mp5k
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@p90
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@rifle
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_alt
+│       fire_crouch
+│       fire_crouch_alt
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@rocket
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@sawnoff
+│       aim_2_holster
+│       dbfire
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@shotgun
+│       aim_2_holster
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@test_gun
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       fire
+│       fire_crouch
+│       fire_down
+│       fire_up
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       p_load
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───gun@uzi
+│       aim_2_holster
+│       dbfire
+│       dbfire_l
+│       discard
+│       discard_crouch
+│       execute
+│       fire
+│       fire_crouch
+│       holster
+│       holster_2_aim
+│       holster_crouch
+│       melee
+│       melee_crouch
+│       reload
+│       reload_crouch
+│       unholster
+│       unholster_crouch
+│       wall_block_idle
+│
+├───jump_rifle
+│       jump_inair_l
+│       jump_inair_r
+│       jump_land_l
+│       jump_land_r
+│       jump_land_roll
+│       jump_land_squat
+│       jump_on_spot
+│       jump_takeoff_l
+│       jump_takeoff_r
+│
+├───jump_std
+│       jump_inair_l
+│       jump_inair_r
+│       jump_land_l
+│       jump_land_r
+│       jump_land_roll
+│       jump_land_squat
+│       jump_on_spot
+│       jump_takeoff_l
+│       jump_takeoff_r
+│
+├───melee_gang_unarmed
+│       headbutt
+│       headbutt_recoil
+│       idle
+│       jab
+│       jab_recoil
+│       knee
+│       knee_recoil
+│       low_kick_long
+│       low_kick_long_recoil
+│       low_kick_nuts
+│       low_kick_nuts_recoil
+│       l_elbow
+│       l_elbow_recoil
+│       l_hook
+│       l_hook_recoil
+│       l_lowblow
+│       l_lowblow_recoil
+│       l_uppercut
+│       l_uppercut_recoil
+│       move_away
+│       r_cross
+│       r_cross_recoil
+│       r_elbow
+│       r_elbow_recoil
+│       r_hook
+│       r_hook_recoil
+│       r_lowblow
+│       r_lowblow_recoil
+│       r_uppercut
+│       r_uppercut_recoil
+│       shove
+│
+├───melee_hits_common
+│       dam_block_front
+│       dam_block_left
+│       dam_block_right
+│       hit_back_lower
+│       hit_back_upper
+│       hit_elbow_l
+│       hit_elbow_r
+│       hit_headbutt
+│       hit_hook_l
+│       hit_hook_l_long
+│       hit_hook_r
+│       hit_hook_r_long
+│       hit_knee
+│       hit_lowblow_l
+│       hit_lowblow_r
+│       hit_low_kick_long
+│       hit_side_left_lo
+│       hit_side_right_lo
+│       hit_uppercut_l
+│       hit_uppercut_r
+│       shoved_b
+│       shoved_f
+│       shoved_l
+│       shoved_r
+│
+├───melee_player_unarmed
+│       elbow_l
+│       elbow_l_recoil
+│       elbow_r
+│       elbow_r_recoil
+│       headbutt
+│       headbutt_recoil
+│       hook_l
+│       hook_l_long
+│       hook_l_long_recoil
+│       hook_l_recoil
+│       hook_r
+│       hook_r_long
+│       hook_r_long_recoil
+│       hook_r_recoil
+│       knee
+│       knee_recoil
+│       lowblow_l
+│       lowblow_l_recoil
+│       lowblow_r
+│       lowblow_r_recoil
+│       low_kick_r_long
+│       low_kick_r_long_recoil
+│       uppercut_l
+│       uppercut_l_recoil
+│       uppercut_r
+│       uppercut_r_recoil
+│
+├───melee_pool_core
+│       block
+│       ground_attack_a
+│       ground_attack_a_recoil
+│       hit_hook_l
+│       hit_hook_r
+│       hit_low_kick
+│       hook_l
+│       hook_l_recoil
+│       hook_r
+│       hook_r_recoil
+│       idle
+│       idle_outro
+│       low_kick_r
+│       low_kick_recoil
+│       p_punch
+│       run
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│
+├───melee_pool_extra
+│       batbutt
+│       batbutt_recoil
+│       counter_back
+│       counter_left
+│       counter_right
+│       dam_block_front
+│       dam_block_left
+│       dam_block_right
+│       dodge_back
+│       dodge_l
+│       dodge_r
+│       headbutt
+│       hit_counter_back
+│       hit_counter_left
+│       hit_counter_right
+│       hit_headbutt
+│       hit_knee
+│       hit_lowblow_l
+│       hit_lowblow_r
+│       hit_low_kick_long
+│       hit_uppercut_l
+│       hit_uppercut_r
+│       hook_r_long
+│       knee
+│       knee_recoil
+│       lowblow_l
+│       lowblow_l_recoil
+│       lowblow_r
+│       lowblow_r_recoil
+│       low_kick_r_long
+│       low_kick_r_long_recoil
+│       shove
+│       uppercut_l
+│       uppercut_l_recoil
+│       uppercut_r
+│       uppercut_r_recoil
+│
+├───melee_unarmed_base
+│       block
+│       cross_r
+│       cross_r_recoil
+│       ground_attack_a
+│       hit_back
+│       hit_cross_r
+│       hit_jab
+│       hit_left
+│       hit_low_kick
+│       hit_melee_gun
+│       hit_right
+│       jab
+│       jab_recoil
+│       low_kick_r
+│       low_kick_recoil
+│       partial_punch_r
+│       stun_punch
+│
+├───mini_air
+│       celeb
+│       cheer_on_fight_a
+│       cheer_on_fight_b
+│       cheer_on_fight_c
+│       cheer_on_fight_d
+│       curse
+│       minor_celeb
+│       minor_celeb_02
+│       minor_celeb_03
+│       minor_curse
+│       minor_curse_02
+│       minor_curse_03
+│       stand_to_play
+│       strike
+│
+├───mini_champagne
+│       bm_waitress
+│       challenged_intro
+│       challenged_loop
+│       challenge_intro
+│       challenge_loop
+│       collapse
+│       drink_celebrate
+│       drink_high_breath
+│       drink_high_choke
+│       drink_high_gulp
+│       drink_high_intro
+│       drink_high_vomit
+│       drink_lose_high
+│       drink_lose_low
+│       drink_lose_medium
+│       drink_low_breath
+│       drink_low_choke
+│       drink_low_gulp
+│       drink_low_intro
+│       drink_low_vomit
+│       drink_medium_breath
+│       drink_medium_choke
+│       drink_medium_gulp
+│       drink_medium_intro
+│       drink_medium_vomit
+│       facial_ped_drink_high_gulp
+│       facial_ped_drink_high_intro
+│       facial_ped_drink_high_vomit
+│       facial_ped_drink_low_gulp
+│       facial_ped_drink_low_intro
+│       facial_ped_drink_low_vomit
+│       facial_ped_drink_medium_gulp
+│       facial_ped_drink_medium_intro
+│       facial_ped_drink_medium_vomit
+│       facial_plyr_drink_high_gulp
+│       facial_plyr_drink_high_intro
+│       facial_plyr_drink_high_vomit
+│       facial_plyr_drink_low_gulp
+│       facial_plyr_drink_low_intro
+│       facial_plyr_drink_low_vomit
+│       facial_plyr_drink_medium_gulp
+│       facial_plyr_drink_medium_intro
+│       facial_plyr_drink_medium_vomit
+│       facial_shots_a
+│       facial_shots_a_ped
+│       facial_shots_b
+│       facial_shots_c
+│       female_cheer_intro
+│       female_cheer_loop
+│       female_reaction_lose
+│       female_reaction_win
+│       girl_spectate_loop
+│       girl_spectate_var_a
+│       girl_spectate_var_b
+│       girl_spectate_var_c
+│       m9_waitress
+│       male_cheer_intro
+│       male_cheer_loop
+│       male_reaction_lose
+│       male_reaction_win
+│       obj_bottle_lhandloop
+│       obj_bottle_popcork
+│       obj_bottle_rhandloop
+│       obj_bottle_swapover
+│       pick_up_bottle
+│       pop_cork
+│       shake_bottle
+│       shake_bottle_stand
+│       shake_test
+│       shots_barman_a
+│       shots_barman_a_herc
+│       shots_barman_b
+│       shots_barman_b_herc
+│       shots_barman_c
+│       shots_barman_c_herc
+│       shots_player_a
+│       shots_player_a_herc
+│       shots_player_b
+│       shots_player_b_herc
+│       shots_player_c
+│       shots_player_c_herc
+│       spray_forward
+│       spray_left
+│       spray_left_intro
+│       spray_left_outro
+│       spray_react_left_a
+│       spray_react_left_b
+│       spray_react_right_a
+│       spray_react_right_b
+│       spray_right
+│       spray_right_intro
+│       spray_right_outro
+│       stand_with_bottle
+│
+├───mini_fight
+│       bang_door
+│       bookie_idle
+│       bookie_tictac
+│       bum_idle_a
+│       bum_idle_b
+│       celeb_a
+│       celeb_b
+│       celeb_c
+│       crowd_drunk
+│       crowd_excited_a
+│       crowd_excited_b
+│       crowd_grab_intro
+│       crowd_grab_loop
+│       crowd_grab_outro
+│       crowd_losebet_angry01
+│       crowd_losebet_angry02
+│       crowd_losebet_calm01
+│       crowd_losebet_calm02
+│       crowd_losebet_calm03
+│       crowd_negative
+│       crowd_positive
+│       dragged_loser
+│       drag_loser
+│       fighter_a_grab_hit
+│       fighter_b_grab_hit
+│       fight_a
+│       fight_b
+│       floor_ko_a
+│       floor_ko_b
+│       intro_a
+│       intro_b
+│       luis_grabbed_intro
+│       luis_grabbed_loop
+│       luis_grabbed_outro
+│       opponent_celebrate
+│       opponent_uppercut
+│       player_uppercut
+│       punch_ropes
+│       push_in_a
+│       push_in_b
+│       stactic_celeb_a
+│       stactic_celeb_b
+│       stactic_celeb_c
+│       tut_fight_a
+│       tut_fight_b
+│       walk_in_a
+│       walk_in_b
+│       wrestle_a
+│       wrestle_b
+│       wrestle_c
+│       wrestle_d
+│
+├───mini_golf
+│       average
+│       average_b
+│       celeb_a
+│       celeb_c
+│       curse_a
+│       curse_c
+│       golf_in
+│       golf_out
+│       idle
+│       swing_action
+│       swing_big
+│       swing_intro
+│       swing_med
+│       swing_outro
+│       swing_small
+│
+├───missamb_bama
+│       chat_chata
+│       chit_chata
+│       dj_idle_loop
+│       female_chair_chat
+│       female_couch_right
+│       female_paired_he_a
+│       female_sitting_flirt
+│       female_sitting_friends
+│       female_stool_alone
+│       female_stool_chat
+│       f_dance_a
+│       f_dance_b
+│       f_stand_a
+│       f_stand_b
+│       f_stand_d
+│       high_energy_a
+│       high_energy_b
+│       high_energy_c
+│       high_energy_d
+│       high_energy_e
+│       male_chair_chat
+│       male_couch_left
+│       male_couch_right
+│       male_paired_he_a
+│       male_sitting_flirt
+│       male_sitting_friends
+│       male_stool_chat
+│       m_bar_lean_a
+│
+├───missamb_herc_female
+│       chat_chata
+│       dancea
+│       danceb
+│       dancec
+│       danced
+│       dance_1_a_01
+│       dance_1_a_02
+│       dance_2_a_01
+│       dance_2_a_02
+│       dance_3_a_01
+│       dance_3_a_02
+│       dance_4_a_01
+│       dance_4_a_02
+│       female_chair_alone
+│       female_chair_chat
+│       f_bar_lean_a
+│       f_bar_lean_b
+│       f_bar_lean_c
+│       f_bar_lean_d
+│       f_dance_a
+│       f_dance_b
+│       f_stand_a
+│       f_stand_b
+│       f_stand_c
+│       f_stand_d
+│
+├───missamb_herc_male
+│       brtndr_arm_up_dance
+│       brtndr_dance_a
+│       brtndr_flirt
+│       brtndr_mix_drink
+│       brtndr_mix_drinkb
+│       brtndr_point_dance
+│       brtndr_simple_dance
+│       brtndr_turn_dance
+│       chatting_brtndr
+│       chatting_pair_a
+│       chatting_pair_b
+│       chat_brtndr_a
+│       chat_pntr_a
+│       chit_chata
+│       couch_chat_l
+│       couch_chat_r
+│       dancea
+│       flirt_bar
+│       gay_breakout
+│       gay_dance_a
+│       gay_dance_b
+│       gay_dance_c
+│       gay_dance_d
+│       gay_dance_stage_a
+│       gay_dance_stage_b
+│       gay_dance_stage_c
+│       gay_dance_stage_d
+│       gay_dance_stage_e
+│       gay_gay_dancea
+│       gay_hand_twirl
+│       gay_paired_a
+│       gay_paired_b
+│       hot_shit
+│       male_chair_alone
+│       male_chair_chat
+│       male_checkout_dance
+│       m_bartender_dance
+│       m_solo
+│       stand_checkout
+│       stand_coquette
+│       stand_dance
+│       table_flirting_a
+│       table_flirting_b
+│       table_lonely
+│
+├───missamb_m9
+│       bath_att_action
+│       bath_att_idle
+│       chat_chata
+│       female_chair_chat
+│       female_couch_right
+│       female_dance_loop_a
+│       female_dance_loop_b
+│       female_fix_hair
+│       female_sitting_flirt
+│       female_sitting_friends
+│       f_dance_a
+│       f_dance_b
+│       f_flirty_dance_a
+│       f_flirty_dance_b
+│       f_flirty_dance_c
+│       f_friends_dance_a
+│       f_friends_dance_b
+│       f_stand_a
+│       f_stand_b
+│       f_stand_c
+│       f_stand_d
+│       girl_coke
+│       girl_makeup
+│       guy_coke
+│       male_chair_chat
+│       male_couch_left
+│       male_couch_right
+│       male_dance_loop_a
+│       male_dance_loop_b
+│       male_sitting_flirt
+│       male_sitting_friends
+│       m_bar_lean_a
+│       m_bar_lean_b
+│       m_flirty_dance_a
+│       m_flirty_dance_b
+│       m_flirty_dance_c
+│       m_friends_dance_a
+│       m_friends_dance_b
+│       wash_hands
+│
+├───missarnaud2
+│       car_proposition
+│       street_argue_f_a
+│       street_argue_f_b
+│
+├───missbasejump
+│       dive
+│       dive_02
+│       idle
+│       idle_02
+│
+├───missbike_combat
+│       0_bat_attack_intro_l
+│       0_bat_attack_intro_r
+│       0_bat_attack_powerup_intro_l
+│       0_bat_attack_powerup_intro_r
+│       0_bat_attack_powerup_strike_l
+│       0_bat_attack_powerup_strike_r
+│       0_bat_attack_weak_l
+│       0_bat_attack_weak_r
+│       0_hit_react_l
+│       0_hit_react_r
+│       0_take_bat
+│       1_bat_attack_intro_l
+│       1_bat_attack_intro_r
+│       1_bat_attack_powerup_intro_l
+│       1_bat_attack_powerup_intro_r
+│       1_bat_attack_powerup_strike_l
+│       1_bat_attack_powerup_strike_r
+│       1_bat_attack_weak_l
+│       1_bat_attack_weak_r
+│       1_hit_react_l
+│       1_hit_react_r
+│       1_take_bat
+│       2_bat_attack_intro_l
+│       2_bat_attack_intro_r
+│       2_bat_attack_powerup_intro_l
+│       2_bat_attack_powerup_intro_r
+│       2_bat_attack_powerup_strike_l
+│       2_bat_attack_powerup_strike_r
+│       2_bat_attack_weak_l
+│       2_bat_attack_weak_r
+│       2_hit_react_l
+│       2_hit_react_r
+│       2_take_bat
+│       3_bat_attack_intro_l
+│       3_bat_attack_intro_r
+│       3_bat_attack_powerup_intro_l
+│       3_bat_attack_powerup_intro_r
+│       3_bat_attack_powerup_strike_l
+│       3_bat_attack_powerup_strike_r
+│       3_bat_attack_weak_l
+│       3_bat_attack_weak_r
+│       3_hit_react_l
+│       3_hit_react_r
+│       3_take_bat
+│       4_bat_attack_intro_l
+│       4_bat_attack_intro_r
+│       4_bat_attack_powerup_intro_l
+│       4_bat_attack_powerup_intro_r
+│       4_bat_attack_powerup_strike_l
+│       4_bat_attack_powerup_strike_r
+│       4_bat_attack_weak_l
+│       4_bat_attack_weak_r
+│       4_hit_react_l
+│       4_hit_react_r
+│       4_take_bat
+│       give_bat
+│       take_bat
+│
+├───missbrother_1
+│       dinghy_jump
+│       mori_bricks
+│       mori_sit_drive
+│
+├───missbrother_2
+│       mori_getin_heli
+│       mori_loop_heli
+│       pilot_loop
+│       player_getin_heli
+│       player_loop_heli
+│
+├───missbrother_3
+│       brucie_idle
+│       button_intro
+│       button_loop
+│       button_outro
+│       hands_up
+│
+├───missbstop_herc
+│       facial_female_a
+│       facial_female_b
+│       facial_female_c
+│       facial_male_a
+│       facial_male_b
+│       facial_male_c
+│       facial_player_dance
+│       facial_player_fail
+│       failed_herc_dance
+│       failed_herc_dance01
+│       gayblack_01-2
+│       gaygang_01-1
+│       gaygang_01-2
+│       gaygeneral_01-1
+│       hotchick_01
+│       hotchick_02
+│       hotchick_03
+│       pgirl_02
+│       success_herc_dance
+│
+├───missbstop_m9
+│       dance_fail
+│       dance_success
+│       facial_female_a
+│       facial_female_b
+│       facial_female_c
+│       facial_male_a
+│       facial_male_b
+│       facial_male_c
+│       facial_player_dance
+│       facial_player_fail
+│       f_y_hotchick_01-2
+│       f_y_pgirl_02-1
+│       f_y_pgirl_02-2
+│       f_y_socialite-1
+│       m_y_clubblack_01-1
+│       m_y_clubeuro_02-2
+│       m_y_clubeuro_03-1
+│       m_y_clubwhite_01-1
+│
+├───missbulgarin01
+│       fbi_part01
+│       fbi_part02
+│       plant_evidence
+│       swat01
+│       swat_aim
+│       swat_sweep_l
+│       swat_sweep_r
+│
+├───missbulgarin02
+│       cower_idle
+│       cower_idle2
+│       edge_back
+│       edge_back2
+│       enter_truck
+│       jump_left
+│       jump_right
+│       land_truck
+│       luis_truck
+│       mp5_look_a
+│       mp5_look_b
+│       shot_through_window
+│       timur_truck
+│
+├───missbulgarin03
+│       attempt_door
+│       helicopter_idle
+│       helicopter_jump
+│       helicopter_shoot_into
+│       helicopter_shoot_loop
+│       helicopter_shoot_out
+│       scream
+│
+├───misscar_idles
+│       armando
+│       henrique
+│       mori
+│       timur
+│       tony
+│
+├───missclub_mgmt
+│       agro_intro_a
+│       agro_intro_b
+│       agro_loop_a
+│       agro_loop_b
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       drunk_hassle_waitress_intro
+│       drunk_hassle_waitress_loop
+│       eject_ped_01_a
+│       eject_ped_01_b
+│       eject_ped_02_a
+│       eject_ped_02_b
+│       eject_ped_03_a
+│       eject_ped_03_b
+│       eject_ped_04_a
+│       eject_ped_04_b
+│       eject_ped_05_a
+│       eject_ped_05_b
+│       eject_ped_06_a
+│       eject_ped_06_b
+│       female_chair_alone
+│       hassled_waitress_intro
+│       hassled_waitress_loop
+│       joni_anal
+│       joni_bj
+│       joni_bye
+│       joni_bye_a
+│       joni_chat
+│       joni_chat_a
+│       joni_dance
+│       joni_freakout
+│       joni_freakout_b
+│       joni_goodnight_a
+│       joni_hi_a
+│       joni_idle
+│       lookaround_a
+│       luis_anal
+│       luis_bj
+│       luis_dance
+│       luis_freakout
+│       luis_freakout_b
+│       luis_suit
+│       male_stand_chat
+│       m_drugdeal__buyer
+│       m_drugdeal__dealer
+│       m_drugdeal__dealer_loop
+│       m_drunk_a
+│       m_drunk_b
+│       spot_drugs_dealer
+│       spot_drugs_player
+│       spot_drunk_drunk
+│       spot_drunk_player
+│       spot_fight_a
+│       spot_fight_b
+│       spot_fight_c
+│       spot_non_payer_a
+│       spot_non_payer_b
+│       spot_perv_a
+│       spot_perv_b
+│
+├───missdanceoff
+│       alpha_dance_loop
+│       alpha_idle
+│       alpha_stage_exit
+│       alpha_stage_return
+│       challenge_2
+│       challenge_3
+│       facial_challenge_2
+│       facial_challenge_3
+│       facial_dance_1_plyr
+│       facial_dance_2_plyr
+│       facial_dance_3_plyr
+│       facial_dance_loop
+│       facial_fail_react_plyr
+│       facial_idle
+│       facial_idle_plyr
+│       facial_stage_exit
+│       facial_stage_exit_plyr
+│       facial_stage_return
+│       facial_stage_return_plyr
+│       female_idle
+│       female_stage_exit
+│       female_stage_return
+│       frustration_loop
+│       luis_arm_cross
+│       luis_dance_1
+│       luis_dance_2
+│       luis_dance_3
+│       luis_fail_react
+│       luis_stage_exit
+│       luis_stage_return
+│
+├───missdance_bama_pair_
+│       facial_dance_fail_f
+│       facial_dance_fail_plyr
+│       facial_dance_pass_f
+│       facial_dance_pass_plyr
+│       fgrooveendingfail
+│       fhold_l1_ne_6beat_stopl1
+│       fhold_l1_nw_7beat_stopr1
+│       fhold_l1_se_6beat_stopl1
+│       fhold_l1_sw_8beat_stopr1
+│       fhold_l2_ne_8beat_stopl2
+│       fhold_l2_nw_6beat_stopr2
+│       fhold_l2_se_8beat_stopl1
+│       fhold_l2_sw_6beat_stopr1
+│       fhold_r1_ne_8beat_stopl1
+│       fhold_r1_nw_6beat_stopr1
+│       fhold_r1_se_7beat_stopl1
+│       fhold_r1_sw_5beat_stopr1
+│       fhold_r2_ne_6beat_stopl1
+│       fhold_r2_nw_8beat_stopr1
+│       fhold_r2_se_6beat_stopl1
+│       fhold_r2_sw_8beat_stopr1
+│       mgrooveendingfail
+│       mhold_l1_ne_6beat_stopl1
+│       mhold_l1_nw_7beat_stopr1
+│       mhold_l1_se_6beat_stopl1
+│       mhold_l1_sw_8beat_stopr1
+│       mhold_l2_ne_8beat_stopl2
+│       mhold_l2_nw_6beat_stopr2
+│       mhold_l2_se_8beat_stopl1
+│       mhold_l2_sw_6beat_stopr1
+│       mhold_r1_ne_8beat_stopl1
+│       mhold_r1_nw_6beat_stopr1
+│       mhold_r1_se_7beat_stopl1
+│       mhold_r1_sw_5beat_stopr1
+│       mhold_r2_ne_6beat_stopl1
+│       mhold_r2_nw_8beat_stopr1
+│       mhold_r2_se_6beat_stopl1
+│       mhold_r2_sw_8beat_stopr1
+│       paired_female_partial_idle
+│       paired_male_groove_idle
+│       paired_male_partial_idle
+│       paired_male_partial_l1_l
+│       paired_male_partial_l1_r
+│       paired_male_partial_l2_l
+│       paired_male_partial_l2_r
+│       paired_male_partial_r1_l
+│       paired_male_partial_r1_r
+│       paired_male_partial_r2_l
+│       paired_male_partial_r2_r
+│       paired_trans_girl
+│       paired_trans_player
+│       success_f
+│       success_m
+│
+├───missdance_bama_solo_
+│       facial_dance_idle
+│       fgameendingfail
+│       fgrooveendingfail
+│       fhold_l1_ne_8beat_stopl1
+│       fhold_l1_nw_10beat_stopr2
+│       fhold_l1_se_8beat_stopr1
+│       fhold_l1_sw_8beat_stopl1
+│       fhold_l2_ne_8beat_stopl1
+│       fhold_l2_nw_10beat_stopr2
+│       fhold_l2_se_8beat_stopr1
+│       fhold_l2_sw_9beat_stopl1
+│       fhold_r1_ne_9beat_stopl1
+│       fhold_r1_nw_8beat_stopr1
+│       fhold_r1_se_8beat_stopr1
+│       fhold_r1_sw_8beat_stopl2
+│       fhold_r2_ne_9beat_stopl1
+│       fhold_r2_nw_9beat_stopl1
+│       fhold_r2_se_9beat_stopr2
+│       fhold_r2_sw_8beat_stopr2
+│       mgameendingfail
+│       mgrooveendingfail
+│       mhold_l1_ne_8beat_stopl1
+│       mhold_l1_nw_10beat_stopr2
+│       mhold_l1_se_8beat_stopr1
+│       mhold_l1_sw_8beat_stopl1
+│       mhold_l2_ne_8beat_stopl1
+│       mhold_l2_nw_10beat_stopr2
+│       mhold_l2_se_8beat_stopr1
+│       mhold_l2_sw_9beat_stopl1
+│       mhold_r1_ne_9beat_stopl1
+│       mhold_r1_nw_8beat_stopr1
+│       mhold_r1_se_8beat_stopr1
+│       mhold_r1_sw_8beat_stopl2
+│       mhold_r2_ne_9beat_stopl1
+│       mhold_r2_nw_8beat_stopl1
+│       mhold_r2_se_9beat_stopr2
+│       mhold_r2_sw_8beat_stopr2
+│       solo_female_groove_idle
+│       solo_male_groove_idle
+│       solo_male_partial_idle
+│       solo_male_partial_l1_l
+│       solo_male_partial_l1_r
+│       solo_male_partial_l2_l
+│       solo_male_partial_l2_r
+│       solo_male_partial_r1_l
+│       solo_male_partial_r1_r
+│       solo_male_partial_r2_l
+│       solo_male_partial_r2_r
+│
+├───missdance_femidl_b
+│       loop_b
+│
+├───missdance_herc_pair_
+│       facial_dance_fail_f
+│       facial_dance_fail_plyr
+│       facial_dance_pass_f
+│       facial_dance_pass_plyr
+│       fail_girl_a
+│       fail_girl_b
+│       fail_player_a
+│       fail_player_b
+│       fgrooveendingfail
+│       fhold_l1_ne_6beat_stopl1
+│       fhold_l1_nw_8beat_stopr1
+│       fhold_l1_se_6beat_stopr1
+│       fhold_l1_sw_7beat_stopl1
+│       fhold_l2_ne_8beat_stopl1
+│       fhold_l2_nw_7beat_stopr1
+│       fhold_l2_se_6beat_stopr1
+│       fhold_l2_sw_7beat_stopl1
+│       fhold_r1_ne_8beat_stopl1
+│       fhold_r1_nw_6beat_stopr1
+│       fhold_r1_se_7beat_stopr1
+│       fhold_r1_sw_6beat_stopl1
+│       fhold_r2_ne_7beat_stopl1
+│       fhold_r2_nw_8beat_stopr1
+│       fhold_r2_se_7beat_stopr1
+│       fhold_r2_sw_6beat_stopl1
+│       idle_r
+│       mgrooveendingfail
+│       mhold_l1_ne_6beat_stopl1
+│       mhold_l1_nw_8beat_stopr1
+│       mhold_l1_se_6beat_stopr1
+│       mhold_l1_sw_7beat_stopl1
+│       mhold_l2_ne_8beat_stopl1
+│       mhold_l2_nw_7beat_stopr1
+│       mhold_l2_se_6beat_stopr1
+│       mhold_l2_sw_7beat_stopl1
+│       mhold_r1_ne_8beat_stopl1
+│       mhold_r1_nw_6beat_stopr1
+│       mhold_r1_se_7beat_stopr1
+│       mhold_r1_sw_6beat_stopl1
+│       mhold_r2_ne_7beat_stopl1
+│       mhold_r2_nw_8beat_stopr1
+│       mhold_r2_se_7beat_stopr1
+│       mhold_r2_sw_6beat_stopl1
+│       paired_female_groove_idle
+│       paired_male_groove_idle
+│       paired_male_partial_idle
+│       paired_male_partial_l1_l
+│       paired_male_partial_l1_l_v1
+│       paired_male_partial_l1_r
+│       paired_male_partial_l1_r_v1
+│       paired_male_partial_l2_l
+│       paired_male_partial_l2_l_v1
+│       paired_male_partial_l2_r
+│       paired_male_partial_l2_r_v1
+│       paired_male_partial_r1_l
+│       paired_male_partial_r1_l_v1
+│       paired_male_partial_r1_r
+│       paired_male_partial_r1_r_v1
+│       paired_male_partial_r2_l
+│       paired_male_partial_r2_l_v1
+│       paired_male_partial_r2_r
+│       paired_male_partial_r2_r_v1
+│       paired_trans_girl
+│       paired_trans_player
+│       success_f
+│       success_m
+│
+├───missdance_herc_solo_
+│       facial_dance_idle
+│       fgameendingfail
+│       fgrooveendingfail
+│       fhold_l1_l_8beat_stopl1
+│       fhold_l1_r_8beat_stopl1
+│       fhold_l2_l_8beat_stopl2
+│       fhold_r1_l_8beat_stopr1
+│       fhold_r1_r_8beat_stopr1
+│       fhold_r2_r_8beat_stopr2
+│       mgameendingfail
+│       mgrooveendingfail
+│       mhold_l1_ne_8beat_stopl1
+│       mhold_l1_nw_8beat_stopl1
+│       mhold_l1_se_6beat_stopl1
+│       mhold_l1_sw_6beat_stopl1
+│       mhold_l2_ne_8beat_stopl2
+│       mhold_l2_nw_8beat_stopl2
+│       mhold_l2_se_6beat_stopl2
+│       mhold_l2_sw_6beat_stopl2
+│       mhold_r1_ne_8beat_stopr1
+│       mhold_r1_nw_8beat_stopr1
+│       mhold_r1_se_6beat_stopl1
+│       mhold_r1_sw_6beat_stopr1
+│       mhold_r2_ne_8beat_stopr2
+│       mhold_r2_nw_8beat_stopr2
+│       mhold_r2_se_6beat_stopr2
+│       mhold_r2_sw_6beat_stopr2
+│       solo_female_groove_idle
+│       solo_male_groove_idle
+│       solo_male_headbop_idle
+│       solo_male_partial_idle
+│       solo_male_partial_l1_l
+│       solo_male_partial_l1_l_v1
+│       solo_male_partial_l1_r
+│       solo_male_partial_l1_r_v1
+│       solo_male_partial_l2_l
+│       solo_male_partial_l2_l_v1
+│       solo_male_partial_l2_r
+│       solo_male_partial_l2_r_v1
+│       solo_male_partial_r1_l
+│       solo_male_partial_r1_l_v1
+│       solo_male_partial_r1_r
+│       solo_male_partial_r1_r_v1
+│       solo_male_partial_r2_l
+│       solo_male_partial_r2_l_v1
+│       solo_male_partial_r2_r
+│       solo_male_partial_r2_r_v1
+│
+├───missdance_m9_pair_
+│       facial_dance_fail_f
+│       facial_dance_fail_plyr
+│       facial_dance_pass_f
+│       facial_dance_pass_plyr
+│       fgrooveendingfail
+│       fhold_l1_ne_12beat_stopr1
+│       fhold_l1_nw_10beat_stopl1
+│       fhold_l1_se_12beat_stopr1
+│       fhold_l1_sw_12beat_stopl1
+│       fhold_l2_ne_11beat_stopr1
+│       fhold_l2_nw_9beat_stopl1
+│       fhold_l2_se_12beat_stopr1
+│       fhold_l2_sw_11beat_stopl1
+│       fhold_r1_ne_10beat_stopr1
+│       fhold_r1_nw_8beat_stopl1
+│       fhold_r1_se_11beat_stopr1
+│       fhold_r1_sw_12beat_stopl1
+│       fhold_r2_ne_10beat_stopl1
+│       fhold_r2_nw_11beat_stopr2
+│       fhold_r2_se_10beat_stopr1
+│       fhold_r2_sw_11beat_stopl1
+│       mgrooveendingfail
+│       mhold_l1_ne_12beat_stopr1
+│       mhold_l1_nw_10beat_stopl1
+│       mhold_l1_se_12beat_stopr1
+│       mhold_l1_sw_12beat_stopl1
+│       mhold_l2_ne_11beat_stopr1
+│       mhold_l2_nw_9beat_stopl1
+│       mhold_l2_se_12beat_stopr1
+│       mhold_l2_sw_11beat_stopl1
+│       mhold_r1_ne_10beat_stopr1
+│       mhold_r1_nw_8beat_stopl1
+│       mhold_r1_se_11beat_stopr1
+│       mhold_r1_sw_12beat_stopl1
+│       mhold_r2_ne_10beat_stopl1
+│       mhold_r2_nw_11beat_stopr2
+│       mhold_r2_se_10beat_stopr1
+│       mhold_r2_sw_11beat_stopl1
+│       paired_female_groove_idle
+│       paired_male_groove_idle
+│       paired_male_partial_idle
+│       paired_male_partial_l1_l
+│       paired_male_partial_l1_r
+│       paired_male_partial_l2_l
+│       paired_male_partial_l2_r
+│       paired_male_partial_r1_l
+│       paired_male_partial_r1_r
+│       paired_male_partial_r2_l
+│       paired_male_partial_r2_r
+│       paired_trans_girl
+│       paired_trans_player
+│       solo_female_groove_idle
+│       solo_male_groove_idle
+│       solo_male_partials_idle
+│       solo_male_partial_l1_l
+│       solo_male_partial_l1_r
+│       solo_male_partial_l2_l
+│       solo_male_partial_l2_r
+│       solo_male_partial_r1_l
+│       solo_male_partial_r1_r
+│       solo_male_partial_r2_l
+│       solo_male_partial_r2_r
+│       success_f
+│       success_m
+│
+├───missdance_m9_solo_
+│       facial_dance_idle
+│       fgameendingfail
+│       fgrooveendingfail
+│       fhold_l1_nw_11beat_stopl1
+│       fhold_l1_sw_12beat_stopl2
+│       fhold_l2_nw_11beat_stopl1
+│       fhold_r1_ne_12beat_stopr1
+│       fhold_r1_se_11beat_stopr1
+│       fhold_r2_ne_11beat_stopr1
+│       mgameendingfail
+│       mgrooveendingfail
+│       mhold_l1_ne_12beat_stopl2
+│       mhold_l1_nw_11beat_stopl1
+│       mhold_l1_se_11beat_stopl1
+│       mhold_l1_sw_12beat_stopl2
+│       mhold_l2_ne_11beat_stopl1
+│       mhold_l2_nw_11beat_stopl1
+│       mhold_l2_se_11beat_stopl1
+│       mhold_l2_sw_11beat_stopl1
+│       mhold_r1_ne_12beat_stopr1
+│       mhold_r1_nw_12beat_stopr1
+│       mhold_r1_se_11beat_stopr1
+│       mhold_r1_sw_11beat_stopr1
+│       mhold_r2_ne_11beat_stopr1
+│       mhold_r2_nw_11beat_stopr1
+│       mhold_r2_se_11beat_stopr1
+│       mhold_r2_sw_11beat_stopr1
+│       solo_female_groove_idle
+│       solo_male_groove_idle
+│       solo_male_partial_idle
+│       solo_male_partial_l1_l
+│       solo_male_partial_l1_r
+│       solo_male_partial_l2_l
+│       solo_male_partial_l2_r
+│       solo_male_partial_r1_l
+│       solo_male_partial_r1_r
+│       solo_male_partial_r2_l
+│       solo_male_partial_r2_r
+│
+├───missdance_maleidl_a
+│       loop_a
+│
+├───missdance_maleidl_b
+│       loop_b
+│
+├───missfriends01
+│       ped_react_explosion
+│       plant_bomb
+│
+├───missfriends02
+│       carry_partial
+│       idle01
+│       idle02
+│       pick_up
+│       put_down
+│       stand_smoke
+│
+├───missgun_car
+│       argue_a
+│       no_way_a
+│       no_way_b
+│       no_way_c
+│       open_trunk
+│       shut_trunk
+│
+├───missnightclub
+│       female_chair_alone
+│       female_idle
+│       female_puke
+│       female_stand_chat
+│       f_stand_b
+│       f_stand_d
+│       girl_a_argue
+│       girl_b_argue
+│       male_puke
+│       male_stand_chat
+│       m_drunk_a
+│       m_drunk_b
+│
+├───missrand_pedsarnaud
+│       ask_light_l
+│       ask_light_r
+│       injured_idle
+│       stand_idle
+│
+├───missrocco
+│       end_pass_luis
+│       end_pass_tony
+│       male_chair_chat
+│       tony_hurry
+│
+├───misstony01
+│       scene_01_tony
+│       scene_01_tony_gesture
+│       scene_01_tony_opposite
+│       scene_01_troy
+│       scene_02_luis
+│       scene_02_tony
+│       scene_03_armando
+│       scene_03_henrique
+│
+├───misstony02
+│       grenade_throw
+│       grenade_throw_overarm
+│       knocked_out
+│       smash_through_window
+│       tony_corner_left_idle
+│       tony_corner_left_turn
+│       tony_corner_right_idle
+│       tony_corner_right_turn
+│       tony_cower
+│       tony_insidecorner_left_turn
+│       tony_insidecorner_right_turn
+│       tony_wall_accept
+│       tony_wall_explosion
+│       tony_wall_idle
+│       tony_wall_refuse
+│       tony_wall_step_left
+│       tony_wall_step_right
+│       wall_walk
+│       wall_walk_right
+│
+├───misstony03
+│       driveby
+│       drv_ball_missed
+│       drv_cheer
+│       drv_duck
+│       drv_idle
+│       drv_laugh
+│       drv_ouch
+│       drv_signal_more
+│       drv_yell
+│       end_luis_alive
+│       end_luis_dead
+│       end_rocco_alive
+│       end_rocco_dead
+│       end_tony_alive
+│       end_tony_dead
+│       rocco_cover
+│       rocco_dives
+│       rocco_speaks
+│       tny_ball_missed
+│       tny_flinch
+│       tny_flinch_b
+│       tny_idle
+│       tny_taunt_a
+│       tny_taunt_b
+│       tony_come on
+│       tony_panic
+│       tony_shifty_idle
+│       vic_die
+│       vic_hit_high
+│       vic_hit_low
+│       vic_hit_mid
+│       vic_idle
+│
+├───misstony04
+│       air_grab_a
+│       air_grab_b
+│       blogger_injured
+│       camera
+│       dive_out
+│       look_out_a
+│       look_out_b
+│       pass_accel
+│       pass_decc
+│       pass_ff_accel
+│       pass_ff_decc
+│       pass_ff_idle
+│       pass_ff_veer_left
+│       pass_ff_veer_right
+│       pass_idle
+│       pass_left
+│       pass_open_chute
+│       pass_right
+│       punch_a
+│       punch_b
+│       shake_1a
+│       shake_1b
+│       shake_2a
+│       shake_2b
+│       shake_3a
+│       shake_3b
+│       slap_a
+│       slap_b
+│       throw_out_a
+│       throw_out_b
+│
+├───misstony06
+│       bouncer_argue_loop
+│       bouncer_greeting
+│       female_ground_sobbing
+│       female_look_for_friends
+│       female_shocked
+│       female_wounded_walk
+│       female_wounded_wave
+│       female_wounded_wave_02
+│       girl_a_argue
+│       girl_a_argue_loop
+│       girl_b_argue
+│       girl_b_argue_loop
+│       ground_sobbing
+│       inj_rside_idle
+│       male_shocked
+│
+├───misstony07
+│       driver_limo
+│       luis_backseat
+│       luis_limo
+│       no_way
+│       tony_cower
+│
+├───misstony08
+│       luis_backseat
+│       luis_diamonds
+│       tony_diamonds
+│
+├───misstony10
+│       boat_fail
+│       dont_u_dare_v2
+│       girl_ko
+│       girl_ko_brake
+│       girl_ko_loop
+│       girl_ko_turn_l
+│       girl_ko_turn_r
+│       girl_slap_player
+│       girl_tied
+│       girl_upset_idle
+│       girl_wheel_grab_l
+│       girl_wheel_grab_r
+│       jump_grab
+│       player_slapped_girl
+│       plyr_ko_girl
+│       plyr_wheel_grabbed_l
+│       plyr_wheel_grabbed_r
+│       tony_sway
+│       tony_talk
+│
+├───misstony11
+│       bulgarin_execution
+│       bulgarin_execution_idle
+│       gunman_all
+│       gunman_getout
+│       gunman_shoot
+│       jump_plane
+│       luis_all
+│       luis_bike
+│       luis_execution
+│       luis_look
+│       luis_plane
+│       luis_shot_at
+│       obj_grenade
+│       player_hide
+│       timur_shoot
+│       walk_out_cock
+│
+├───misstonym1
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│
+├───misstonym2
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       handover_ped_a
+│       handover_ped_b
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│
+├───misstonym3
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       female_chair_chat
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│       male_stand_chat
+│
+├───misstonym4
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       female_chair_chat
+│       handsup
+│       look_around
+│       look_at_nails
+│       look_at_watch
+│       luis_check_earpiece
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│       male_stand_chat
+│       paparazzi_bike_left
+│       paparazzi_bike_right
+│       paparazzi_crouched
+│       paparazzi_high
+│       paparazzi_standing
+│
+├───misstonym5
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       girl_wheel_grab_r
+│       lean_idle_a
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│       shock_a
+│       shock_c
+│       shock_d
+│       wasteda
+│
+├───misstonym6
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│
+├───misstonym7
+│       absoloutly
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       female_shocked
+│       female_shocked_02
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│       no_thanks
+│       no_way
+│       oh_my_god
+│       this_big
+│
+├───misstonym8
+│       drunk_hassle_girl_intro
+│       drunk_hassle_girl_loop
+│       drunk_hassle_guy_intro
+│       drunk_hassle_guy_loop
+│       luis_check_earpiece_intro
+│       luis_check_earpiece_loop
+│       luis_suit
+│
+├───missyusuf01
+│       ahmed_helipad
+│       helipad_ahmed
+│       henchman_spot_player_a_chat
+│       henchman_spot_player_a_react
+│       henchman_spot_player_b_chat
+│       henchman_spot_player_b_react
+│       henchman_spot_player_c_chat
+│       henchman_spot_player_c_react
+│       jump_from_yacht
+│       luis_helipad
+│
+├───missyusuf02
+│       ahmed_cower
+│       ahmed_idle_01
+│       ahmed_idle_02
+│       ahmed_idle_03
+│       ahmed_pass_parachute
+│       fall_idle
+│       luis_hold
+│       luis_take_parachute
+│       obj_chute_on
+│       put_chute_on
+│       tahir_hold
+│       tahir_idle_01
+│       tahir_idle_02
+│       tahir_idle_03
+│       taxi_driver_loop
+│       taxi_driver_react
+│       taxi_driver_reaction
+│       wait_chat_a
+│       wait_chat_b
+│
+├───missyusuf03
+│       crouch_idle
+│       dive_out
+│       obj_bolt_stretch
+│       obj_cable_break
+│       yusuf_crane
+│       yusuf_crane_talk
+│       yusuf_talk
+│
+├───missyusuf04
+│       duck
+│       duck_idle
+│       get_up
+│       hang_on
+│       hold_train
+│       jump
+│       jump02
+│       jump03
+│       jump_land_roll
+│       jump_off
+│       jump_off_b
+│       jump_r
+│       look_out
+│       uncouple_train
+│       wave_bye
+│
+├───move_crouch
+│       crouchidle2idle
+│       idle
+│       idle2crouchidle
+│       rstop_l
+│       rstop_r
+│       run
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_turn_l
+│       walk_turn_r
+│       wstart
+│       wstop_l
+│       wstop_r
+│
+├───move_crouch_rifle
+│       crouchidle2idle
+│       crouch_roll_bwd
+│       crouch_roll_fwd
+│       crouch_roll_l
+│       crouch_roll_r
+│       idle
+│       idle2crouchidle
+│       rstop_l
+│       rstop_r
+│       run
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_turn_l
+│       walk_turn_r
+│       wstart
+│       wstop_l
+│       wstop_r
+│
+├───move_crouch_rpg
+│       crouchidle2idle
+│       idle
+│       idle2crouchidle
+│       rstop_l
+│       rstop_r
+│       run
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_turn_l
+│       walk_turn_r
+│       wstart
+│       wstop_l
+│       wstop_r
+│
+├───move_f@girl_club
+│       idle
+│       walk
+│       wstart
+│       wstart_turn_l90
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_f@margot
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       shuffle_stop
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_bl45
+│       walk_strafe_br45
+│       walk_strafe_l
+│       walk_strafe_l45
+│       walk_strafe_r
+│       walk_strafe_r45
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_m@santo
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       runstart_l_180
+│       runstart_l_90
+│       runstart_r_180
+│       runstart_r_90
+│       run_mario
+│       run_turn_180_l
+│       run_turn_180_r
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       sprint
+│       sprint_turn_180_l
+│       sprint_turn_180_r
+│       sprint_turn_l
+│       sprint_turn_r
+│       sstop_l
+│       sstop_r
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_b
+│       walk_c
+│       walk_turn_180_l
+│       walk_turn_180_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_m@swat
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│       walk_turn_l
+│       walk_turn_r
+│       wstart
+│       wstop_l
+│       wstop_r
+│
+├───move_m@test
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       runstart_l_180
+│       runstart_l_90
+│       runstart_r_180
+│       runstart_r_90
+│       runstop_turn_r
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       run_turn_180
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       sprint
+│       sprint_turn_l
+│       sprint_turn_r
+│       sstop_l
+│       sstop_r
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_m@tony_scared
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       walk_up
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_melee
+│       idle
+│       idle_outro
+│       run
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       walk
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│
+├───move_player
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       runstart_l_180
+│       runstart_l_90
+│       runstart_r_180
+│       runstart_r_90
+│       run_down
+│       run_strafe_b
+│       run_strafe_l
+│       run_strafe_r
+│       run_turn_180_l
+│       run_turn_180_r
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       run_up
+│       sprint
+│       sprint_turn_180_l
+│       sprint_turn_180_r
+│       sprint_turn_l
+│       sprint_turn_r
+│       sstop_l
+│       sstop_r
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_b
+│       walk_c
+│       walk_down
+│       walk_strafe_b
+│       walk_strafe_l
+│       walk_strafe_r
+│       walk_turn_180_l
+│       walk_turn_180_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       walk_up
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_player_club
+│       idle
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_turn_180_l
+│       walk_turn_180_r
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_rifle
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       runstart_l_180
+│       runstart_l_90
+│       runstart_r_180
+│       runstart_r_90
+│       run_down
+│       run_turn_180_l
+│       run_turn_180_r
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       run_up
+│       shuffle_stop
+│       sprint
+│       sprint_turn_180_l
+│       sprint_turn_180_r
+│       sprint_turn_l
+│       sprint_turn_r
+│       sstop_l
+│       sstop_r
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_down
+│       walk_turn_180_l
+│       walk_turn_180_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       walk_up
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───move_rpg
+│       idle
+│       rstop_l
+│       rstop_r
+│       run
+│       runstart_fwd
+│       runstart_l_180
+│       runstart_l_90
+│       runstart_r_180
+│       runstart_r_90
+│       run_down
+│       run_turn_180_l
+│       run_turn_180_r
+│       run_turn_l
+│       run_turn_l2
+│       run_turn_r
+│       run_turn_r2
+│       run_up
+│       sprint
+│       sprint_turn_180_l
+│       sprint_turn_180_r
+│       sprint_turn_l
+│       sprint_turn_r
+│       sstop_l
+│       sstop_r
+│       turn_360_l
+│       turn_360_r
+│       walk
+│       walk_b
+│       walk_c
+│       walk_down
+│       walk_turn_180_l
+│       walk_turn_180_r
+│       walk_turn_l
+│       walk_turn_l2
+│       walk_turn_l3
+│       walk_turn_r
+│       walk_turn_r2
+│       walk_turn_r3
+│       walk_up
+│       wstart
+│       wstart_turn_l180
+│       wstart_turn_l90
+│       wstart_turn_r180
+│       wstart_turn_r90
+│       wstop_l
+│       wstop_r
+│
+├───parachute
+│       accelerate_2_idle
+│       accelerate_loop
+│       chute_off
+│       deccelerate
+│       dec_2_acc
+│       free_fall
+│       free_fall_deccelerate
+│       free_fall_fast
+│       free_fall_veer_left
+│       free_fall_veer_right
+│       full_brake_for_landing
+│       full_brake_loop
+│       hang_2_steer_l
+│       hang_2_steer_r
+│       hang_idle
+│       hang_idle2
+│       jump_out_bds
+│       jump_out_bps
+│       jump_out_ds
+│       jump_out_ps
+│       jump_takeoff_l
+│       jump_takeoff_r
+│       land
+│       land_fast
+│       land_safe
+│       obj_chute_l
+│       obj_chute_off
+│       obj_chute_off_idle
+│       obj_chute_r
+│       obj_crumple
+│       obj_deploy
+│       obj_wind_high
+│       obj_wind_low
+│       open_chute
+│       steer_abwt_l
+│       steer_abwt_r
+│       steer_ab_l
+│       steer_ab_r
+│       steer_l
+│       steer_l_less
+│       steer_l_trans
+│       steer_r
+│       steer_r_less
+│       steer_r_trans
+│
+├───playidles_cold
+│       blow_hands
+│       check_hand
+│       rub_arms
+│       shake_hands
+│
+├───playidles_grnde_l
+│       aim_gun
+│
+├───playidles_injured
+│       breathing
+│       out_of_breath
+│
+├───playidles_rifle
+│       aim_rifle
+│       lookaround
+│       look_at_rifle
+│       look_at_rifle_b
+│       look_right
+│       look_right_b
+│
+├───playidles_std
+│       crick_neck
+│       handgun_check
+│       handgun_look
+│       limber_shuffle
+│       limber_stretch
+│       look_left
+│       look_right
+│       look_up
+│       scratch_chest
+│       scratch_chin
+│       scratch_l_arm
+│       weight_shift
+│
+├───playidles_tired_1h
+│       breathing
+│       hunched
+│
+├───playidles_wet_1h
+│       check_hand
+│       check_raining
+│       look_up
+│       shake_hands
+│
+├───playidles_wet_2h
+│       shakes_body
+│
+├───throw_grenade
+│       aim_partial
+│       aim_partial_trigger
+│       drop_partial
+│       grenade_throw_crouch
+│       grenade_throw_drop
+│       grenade_throw_overarm
+│       grenade_throw_short
+│       grenade_throw_underarm
+│       grenade_throw_underarm_stand
+│       holster
+│       holster_crouch
+│       light_molotov
+│       sticky_wall
+│       sticky_wall_b
+│       unholster
+│       unholster_crouch
+│
+├───throw_pipe
+│       aim_partial
+│       aim_partial_trigger
+│       grenade_throw_crouch
+│       grenade_throw_overarm
+│       grenade_throw_short
+│       grenade_throw_underarm
+│       grenade_throw_underarm_stand
+│       holster
+│       holster_crouch
+│       light_molotov
+│       unholster
+│       unholster_crouch
+│
+├───veh@drivebybike_chop
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│       ps_throw_grenade
+│       throw_grenade
+│
+├───veh@drivebybike_dirt
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│       ps_throw_grenade
+│       throw_grenade
+│
+├───veh@drivebybike_free
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│       ps_throw_grenade
+│       throw_grenade
+│
+├───veh@drivebybike_scot
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│       ps_throw_grenade
+│       throw_grenade
+│
+├───veh@drivebybike_spt
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│       ps_throw_grenade
+│       throw_grenade
+│
+├───veh@drivebybk_chop_s
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│
+├───veh@drivebybk_dirt_s
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│
+├───veh@drivebybk_free_s
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│
+├───veh@drivebybk_scot_s
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│
+├───veh@drivebybk_spt_s
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_loop
+│       ps_aim_out
+│
+├───veh@drivebyboat_spee
+│       bl_throw_grenade
+│       br_throw_grenade
+│       ds_aim_in
+│       ds_aim_loop
+│       ds_aim_out
+│       ps_aim_in
+│       ps_aim_in_1h
+│       ps_aim_loop
+│       ps_aim_loop_1h
+│       ps_aim_out
+│       ps_aim_out_1h
+│       ps_throw_grenade
+│       throw_grenade
+│
+└───veh@helicopter
+        align_ds
+        align_ps
+        align_rear_ds
+        align_rear_ps
+        d_close_in_ds
+        d_close_in_ps
+        d_close_out_ds
+        d_close_out_ps
+        d_open_out_ds
+        d_open_out_ps
+        get_in_ds
+        get_in_ps
+        get_in_rear_ds
+        get_in_rear_ps
+        get_out_ds
+        get_out_jacked_ds
+        get_out_ps
+        get_out_rear_ds
+        get_out_rear_ps
+        heavy_brake_ds
+        jack_dead_driver_ds
+        jack_dead_driver_ps
+        jack_dead_perp_ds
+        jack_dead_perp_ps
+        jack_driver_ds
+        jack_driver_ds_e
+        jack_driver_ps
+        jack_driver_ps_e
+        jack_perp_ds
+        jack_perp_ps
+        keystart
+        lean_left_ds
+        lean_right_ds
+        sit_drive
+        sit_pass
+        sit_pass_back_left
+        sit_pass_back_right
+        steer_l
+        steer_r
